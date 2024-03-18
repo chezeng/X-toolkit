@@ -1,0 +1,23 @@
+
+1. ALWAYS remember to add "key" function when listing things:
+becuase it can help React sort things better
+<details can be seen in Expense.js>
+
+
+2. 
+const [expenses, setExpenses] = useState(DUMMY_EXPENSES);
+
+  const addExpenseHandler = expense => {
+    setExpenses((preExpenses) => {
+      return [expense, ...preExpenses]; <This is the better way>
+    });
+
+    <NOT THIS ONE>
+    setExpenses([expense, ...expenses])
+
+}
+
+
+3. Math.max(...AnArray) => Make every element in the array listed out alone
+
+
