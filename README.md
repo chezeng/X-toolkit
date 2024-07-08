@@ -1,4 +1,2 @@
-# React-Projects
-Some miscellaneous React (HTML + CSS) projects
-
-Only src folders are included due to many large files.
+# X-toolkits
+A large toolkit consisting of useful functions such as age, advertisement and goal manipulator.
